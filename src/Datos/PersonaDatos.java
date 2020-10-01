@@ -29,4 +29,13 @@ public class PersonaDatos {
         }
         
     }
+    public void update(int ID, String nombre, String apePaterno ,String apeMaterno,int fechaNac,String correo) {
+        for (Alumno d: listaAlumnos) {
+            if (d.getID() == id) {
+                System.out.println("Ya se cambió");
+            }else {
+                System.out.println("No se cambió correctamente");
+            }
+        }
+    }
 }

@@ -9,6 +9,8 @@ public class Alumno {
     private String apeMaterno;
     private int fechaNac;
     private String direccion;
+    
+   
     private String correo;
     
 
@@ -60,13 +62,7 @@ public class Alumno {
         this.fechaNac = fechaNac;
     }
 
-    public String getDireccion() {
-        return direccion;
-    }
-
-    public void setDireccion(String direccion) {
-        this.direccion = direccion;
-    }
+   
 
     public String getCorreo() {
         return correo;
@@ -74,6 +70,14 @@ public class Alumno {
 
     public void setCorreo(String correo) {
         this.correo = correo;
+    }
+
+    public String getDireccion() {
+        return direccion;
+    }
+
+    public void setDireccion(String direccion) {
+        this.direccion = direccion;
     }
     
 }
